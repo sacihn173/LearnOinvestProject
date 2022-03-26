@@ -1,0 +1,31 @@
+.ques {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.ques header {
+  padding: 5px;
+  position: relative;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #dedbd3;
+}
+.ques h3 {
+  position: relative;
+  font-size: smaller;
+  padding-left: 10px;
+}
+
+.ques span {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  font-size: smaller;
+}
+
+.body p {
+  padding: 5px;
+  padding-left: 10px;
+}

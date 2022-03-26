@@ -1,0 +1,7 @@
+.side {
+  height: 100%;
+  background-color: green;
+  border-radius: 10px;
+  position: fixed;
+  width: 15%;
+}

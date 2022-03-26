@@ -1,0 +1,66 @@
+.box {
+  height: 6rem;
+  width: 100%;
+  position: relative;
+  margin: 10px auto;
+  -webkit-box-shadow: 0px 0px 11px -2px #000000;
+  box-shadow: 0px 0px 11px -2px #000000;
+  border: 1px solid black;
+}
+
+.box h3 {
+  display: inline-block;
+  position: absolute;
+  left: 3%;
+  top: 33%;
+}
+.quantity {
+  font-size: small;
+}
+.invested {
+  display: inline-block;
+  font-size: smaller;
+  position: absolute;
+  left: 3%;
+  bottom: 10%;
+}
+
+.avg {
+  font-size: small;
+}
+
+.topofsymbol {
+  left: 3%;
+  top: 5%;
+  position: absolute;
+}
+
+.current {
+  position: absolute;
+  top: 8%;
+  right: 5%;
+}
+
+.form {
+  position: absolute;
+  padding: 0%;
+  margin: 0;
+  right: 0%;
+  bottom: 5%;
+}
+
+.sell {
+  position: relative;
+  left: 20px;
+  width: 40%;
+  margin: 0;
+}
+.number {
+  text-align: center;
+  position: relative;
+  left: 10px;
+  width: 25%;
+  height: 39px;
+  padding: 5px;
+  margin-right: 0px;
+}

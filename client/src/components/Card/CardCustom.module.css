@@ -1,0 +1,14 @@
+.card {
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.readmore {
+  background-color: coral;
+  border: none;
+  color: white;
+}
+
+.readmore:hover {
+  background-color: #c7633e;
+}

@@ -1,0 +1,16 @@
+.element {
+  padding: 10px;
+  margin: 10px;
+  margin-left: 20px;
+  height: 50px;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 1px rgb(218, 197, 197) solid;
+}
+.element h4 {
+  font-size: medium;
+}
+.element:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.formdiv {
+  text-align: center;
+}
+.formdiv form {
+  margin-top: 3rem;
+}
+.input {
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid green;
+  width: 40%;
+  padding: 10px;
+}
+.submit {
+  margin-left: 10px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  background-color: coral;
+  color: white;
+  border: none;
+}
+.submit:hover {
+  background-color: coral;
+  border: none;
+  box-shadow: 2px 2px 20px 5px rgba(232, 118, 77, 0.75);
+  -webkit-box-shadow: 2px 2px 20px 5px rgba(232, 118, 77, 0.75);
+  -moz-box-shadow: 2px 2px 20px 5px rgba(232, 118, 77, 0.75);
+}
+.submit:visited {
+  background-color: #ff7f50;
+  border: none;
+  box-shadow: 2px 2px 20px 5px rgba(232, 118, 77, 0.75);
+  -webkit-box-shadow: 2px 2px 20px 5px rgba(232, 118, 77, 0.75);
+  -moz-box-shadow: 2px 2px 20px 5px rgba(232, 118, 77, 0.75);
+}

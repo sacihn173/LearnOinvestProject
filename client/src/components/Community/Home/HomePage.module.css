@@ -1,0 +1,14 @@
+.holder {
+  width: 80%;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.heading {
+  background-color: #d1cec7;
+}
+
+.holder h1 {
+  text-align: center;
+  padding: 10px;
+}

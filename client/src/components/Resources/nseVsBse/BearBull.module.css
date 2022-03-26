@@ -1,0 +1,30 @@
+.mainCont {
+  padding-top: 2rem;
+  width: 100%;
+}
+.section p {
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+}
+.section {
+  width: 100%;
+  background-color: white;
+}
+.section h2 {
+  color: #fc5c65;
+}
+.section h1 {
+  color: #fc5c65;
+  text-align: center;
+}
+.image {
+  display: flex;
+  width: 100%;
+  height: 20rem;
+  justify-content: center;
+}
+.mainCont img {
+  width: 30rem;
+  height: 20rem;
+}
