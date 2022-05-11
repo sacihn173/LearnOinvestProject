@@ -10,7 +10,7 @@ const CardCustom = (props) => {
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>{props.summary}</Card.Text>
         <Button className={classes.readmore} variant="primary">
-          Read More
+          {props.btnText}
         </Button>
       </Card.Body>
     </Card>
