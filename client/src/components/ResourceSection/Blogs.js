@@ -1,5 +1,5 @@
 import React from "react";
-import CardCustom from "../Card/CardCustom"
+import CardCustom from "../Card/CardCustom";
 import { Row, Col, Container } from "react-bootstrap";
 
 const Blog = () => {
@@ -16,6 +16,7 @@ const Blog = () => {
               src={
                 "https://media.istockphoto.com/photos/digitally-enhanced-shot-of-a-graph-showing-the-ups-and-downs-shares-picture-id1322201350"
               }
+              btnText={"Read More"}
             />
           </Col>
           <Col>
@@ -27,6 +28,7 @@ const Blog = () => {
               src={
                 "https://media.istockphoto.com/photos/digitally-enhanced-shot-of-a-graph-showing-the-ups-and-downs-shares-picture-id1322201350"
               }
+              btnText={"Read More"}
             />
           </Col>
           <Col>
@@ -38,6 +40,7 @@ const Blog = () => {
               src={
                 "https://media.istockphoto.com/photos/digitally-enhanced-shot-of-a-graph-showing-the-ups-and-downs-shares-picture-id1322201350"
               }
+              btnText={"Read More"}
             />
           </Col>
           <Col>
@@ -49,6 +52,7 @@ const Blog = () => {
               src={
                 "https://media.istockphoto.com/photos/digitally-enhanced-shot-of-a-graph-showing-the-ups-and-downs-shares-picture-id1322201350"
               }
+              btnText={"Read More"}
             />
           </Col>
         </Row>
