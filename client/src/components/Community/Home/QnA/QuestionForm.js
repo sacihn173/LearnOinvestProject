@@ -7,7 +7,7 @@ const QuestionForm = () => {
       <form>
         <textarea className={classes.inputbox}></textarea>
         <Button className={classes.button} variant="primary">
-          Submit
+          Post
         </Button>
       </form>
     </div>

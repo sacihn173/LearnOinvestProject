@@ -26,13 +26,14 @@ const Agora = () => {
       <AgoraUIKit rtcProps={rtcProps} callbacks={callbacks} />
     </div>
   ) : (
-    <><h1 className={classes.startcall} onClick={() => setVideoCall(true)}>Start Stream</h1>
-    <h1 className={classes.startcall} onClick={() => setVideoCall(true)}>Join Stream</h1>
-    <div><span className="powered">Powered By</span>
-    <img className="agoraimg" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/p49ujxdbaurplycovgrx" alt="agora" ></img>
-    </div>
+    <>
+      <h1 className={classes.startcall} onClick={() => setVideoCall(true)}>
+        Start Stream
+      </h1>
+      <h1 className={classes.startcall} onClick={() => setVideoCall(true)}>
+        Join Stream
+      </h1>
     </>
-    
   );
 };
 

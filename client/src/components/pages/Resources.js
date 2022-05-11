@@ -16,9 +16,9 @@ const Resources = () => {
         </Col>
         <Col className={classes.nopadding}>
           <Routes>
+            <Route path="" element={<News />} />
             <Route path="courses" element={<Courses />} />
-            <Route path="news" element={<News />} />
-            <Route path="" element={<Blogs />} />
+            <Route path="blogs" element={<Blogs />} />
           </Routes>
           <Outlet></Outlet>
         </Col>
