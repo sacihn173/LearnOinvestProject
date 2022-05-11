@@ -58,7 +58,6 @@ function App() {
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/resources/*" element={<Resources />} />
               <Route path="/community/*" element={<CommunityPage />} />
-              
             </Routes>
           </Router>
         </>

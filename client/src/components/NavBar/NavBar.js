@@ -12,6 +12,7 @@ const NavigationBar = () => {
     <Navbar
       className={classes.colornav}
       collapseOnSelect
+      sticky="top"
       expand="lg"
       variant="dark"
     >
