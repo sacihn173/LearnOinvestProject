@@ -8,7 +8,7 @@ const SidebarR = () => {
       <SideBarMenuEle name={"News"} path={""} />
       <SideBarMenuEle name={"Blogs"} path={"blogs"} />
       <SideBarMenuEle name={"Courses"} path={"courses"} />
-      <SideBarMenuEle name={"Discussion"} path={"community"} />
+      <SideBarMenuEle name={"Discussion"} path={"/community"} />
     </div>
   );
 };
